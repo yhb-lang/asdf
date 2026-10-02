@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#176b3a">
+<title>지구를 위한 작은 실천 | 환경오염 방지</title>
+<style>
+:root{--green:#176b3a;--deep:#104c2b;--cream:#fffdf5;--ink:#18352a}
+*{box-sizing:border-box}
+body{margin:0;background:#f4f8ed;color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans KR",sans-serif;line-height:1.65}
+header{background:linear-gradient(135deg,#dff5e4,#f8f5d9);padding:38px 18px 28px;text-align:center}
+h1{margin:0;color:var(--deep);font-size:clamp(2rem,7vw,3.3rem);line-height:1.25;letter-spacing:-.05em}
+.lead{margin:12px auto 0;max-width:650px;font-size:1.05rem}
+main{width:min(920px,calc(100% - 28px));margin:24px auto 48px}
+.poster{display:block;width:min(100%,620px);height:auto;margin:0 auto 28px;border-radius:18px;box-shadow:0 8px 28px #153d2020}
+.intro{text-align:center;margin:24px auto 18px;font-size:1.05rem}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.card{padding:20px;border-radius:18px;background:white;box-shadow:0 4px 16px #153d2010;border:1px solid #e5eddf}
+.card h2{margin:0 0 8px;color:var(--green);font-size:1.25rem}
+.emoji{font-size:1.8rem;margin-right:8px}
+.card p{margin:0}
+.tip{margin-top:12px;padding:10px 12px;background:#f0f7eb;border-radius:10px;font-size:.94rem}
+.callout{margin:22px 0 0;padding:22px;border-radius:18px;background:var(--green);color:white;text-align:center}
+.callout h2{margin:0 0 5px;font-size:1.35rem}
+.callout p{margin:0}
+footer{text-align:center;padding:20px;color:#587064;font-size:.85rem}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.card{padding:17px}header{padding-top:30px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>지구를 위한 작은 실천,<br>환경오염을 줄이는 시작!</h1>
+  <p class="lead">오늘의 작은 습관이 내일의 깨끗한 지구를 만듭니다.</p>
+</header>
+<main>
+  <img class="poster" src="poster.png" alt="환경오염 방지를 위한 네 가지 실천을 소개하는 포스터">
+  <p class="intro">우리 생활에서 바로 시작할 수 있는 네 가지 약속을 확인해 보세요.</p>
+  <section class="grid" aria-label="환경 보호 실천 방법">
+    <article class="card">
+      <h2><span class="emoji">💡</span>에너지 절약</h2>
+      <p>사용하지 않는 조명과 전자제품은 꺼서 불필요한 에너지 사용을 줄여요.</p>
+      <div class="tip">실천 팁: 방을 나갈 때 불 끄기!</div>
+    </article>
+    <article class="card">
+      <h2><span class="emoji">♻️</span>일회용품 줄이기</h2>
+      <p>일회용 컵과 비닐봉지 대신 텀블러와 장바구니처럼 여러 번 쓰는 물건을 사용해요.</p>
+      <div class="tip">실천 팁: 외출할 때 텀블러 챙기기!</div>
+    </article>
+    <article class="card">
+      <h2><span class="emoji">💧</span>물 절약</h2>
+      <p>양치하거나 비누칠할 때 물을 잠그고, 필요한 만큼만 사용해요.</p>
+      <div class="tip">실천 팁: 양치컵 사용하기!</div>
+    </article>
+    <article class="card">
+      <h2><span class="emoji">🥗</span>음식물 쓰레기 줄이기</h2>
+      <p>먹을 만큼만 덜어 먹고, 남기지 않도록 식사량을 조절해요.</p>
+      <div class="tip">실천 팁: 먹을 만큼만 담기!</div>
+    </article>
+  </section>
+  <section class="callout">
+    <h2>작은 실천이 모이면 큰 변화가 됩니다.</h2>
+    <p>오늘부터 한 가지씩 함께 실천해요! 🌱</p>
+  </section>
+</main>
+<footer>환경오염 방지 캠페인 · 함께 지키는 우리의 지구</footer>
+</body>
+</html>
